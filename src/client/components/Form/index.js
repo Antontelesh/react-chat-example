@@ -6,6 +6,7 @@ export default class Form extends React.Component {
   submit(event) {
     event.preventDefault();
     this.props.onSubmit(this.input.value);
+    this.input.value = '';
   }
 
   render() {
