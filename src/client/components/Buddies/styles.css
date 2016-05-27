@@ -1,0 +1,11 @@
+@import "../../styles/variables.css";
+
+.root {
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+}
+
+.buddy {
+  padding: 10px;
+}

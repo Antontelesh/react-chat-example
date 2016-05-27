@@ -1,0 +1,28 @@
+.root {
+  height: 100%;
+}
+
+.columns {
+  display: flex;
+  height: 100%;
+}
+
+.sidebar {
+  width: 20%;
+  min-width: 200px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.messages {
+  flex-grow: 1;
+  overflow: auto;
+}
+
+.form {
+  height: 100px;
+}

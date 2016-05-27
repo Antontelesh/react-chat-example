@@ -1,0 +1,19 @@
+.root {
+  composes: row from "../../styles/mixins.css";
+  height: 100%;
+  padding: 10px;
+  padding-left: 0;
+}
+
+.submit {
+  float: left;
+  height: 100%;
+  width: 40px;
+}
+
+.message {
+  float: left;
+  height: 100%;
+  width: calc(100% - 60px);
+  margin-right: 20px;
+}
